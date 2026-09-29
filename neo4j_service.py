@@ -10,9 +10,9 @@ def _config() -> tuple[str, str, str, str]:
     cfg = st.secrets["neo4j"]
     return (
         cfg["uri"],
-        cfg["username"],
-        cfg["password"],
-        cfg.get("database", "ca18ca3e"),
+        cfg["jay"],
+        cfg["1234"],
+        cfg.get("database", "e2b0f0b3"),
     )
 
 
