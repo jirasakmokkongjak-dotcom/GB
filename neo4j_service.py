@@ -11,7 +11,7 @@ def _config() -> tuple[str, str, str, str]:
     return (
         cfg["uri"],
         cfg["neo4j"],
-        cfg["ABEsG18RwPkczsy5mqbBcJhhA1K1B9IfwEFxHGaks"],
+        cfg["Password"],
         cfg.get("database", "e2b0f0b3"),
     )
 
